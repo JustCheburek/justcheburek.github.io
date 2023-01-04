@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"
+          name="MineBridge - Майнкрафт (MineCraft) сервер"
+          content="Сайт для покупок (магазин), заявок, модов, правилах, новостях на майнкрафт (MineCraft) сервере - MineBridge"
+          author="JustCheburek">
+    <title>MineBridge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index_style.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00adb5">
+    <meta name="apple-mobile-web-app-title" content="MineBridge">
+    <meta name="application-name" content="MineBridge">
+    <meta name="msapplication-TileColor" content="#161c1f">
+    <meta name="theme-color" content="#161c1f">
+</head>
+
+<body>
+
+<header>
+    <div id="header">
+        <!-- Лого -->
+        <img src="images/minebridge.png" alt="Логотип сервера" id="logo">
+
+        <nav>
+            <!-- Основная навигация -->
+            <div id="main_nav">
+                <span id="indicator" class="main_nav_text">Главная</span>
+                <a href="" class="main_nav_text">Магазин</a>
+                <a target="_blank" href="https://docs.google.com/document/d/1BYSLncfqaIM05WSzp1_DypaQLFCcu6Qwyz5FaTT1clY/edit?usp=sharing" class="main_nav_text">Правила</a>
+                <a href="" class="main_nav_text">Новости</a>
+                <a href="./features" class="main_nav_text">Фичи</a>
+            </div>
+
+            <!-- Навигация по ссылкам -->
+            <div id="urls_nav">
+                <a href="https://t.me/MineBridgeOfficial" id="telegram_nav_a">
+                    <img src="images/telegram.png" alt="telegram_img">
+                </a>
+                <a href="https://discord.gg/rmWAuKGb69" id="discord_nav_a">
+                    <img src="images/discord.png" alt="discord_img">
+                </a>
+            </div>
+
+            <!-- Авторизация -->
+            <a href="login.html" id="auth_header">
+                <img src="images/auth.png" alt="auth_img" id="auth_img_header">
+                Вход
+            </a>
+        </nav>
+    </div>
+</header>
+
+
+<main>
+    <!--
+    Секция первая
+    Серверная информация для входа
+    Регистрация
+    -->
+    <section id="info_section">
+        <h1>
+            <span class="unic_color">MineBridge</span> - самый крутой <br>ванильный сервер
+        </h1>
+
+        <p id="info_server_text">Бесплатный пиратский майнкрафт сервер<br>
+            без приватов и команд</p>
+
+        <a href="auth.html" class="textbutton" id="textbutton_info_section">
+            Подать заявку
+        </a>
+
+        <p>1.19.2 · Minecraft: Java Edition · Пиратская версия</p>
+    </section>
+
+    <!-- Градиент из серого в чёрный -->
+    <div class="gradient_gray-black"></div>
+
+    <!--
+    Секция вторая
+    уникальность сервера
+    -->
+    <section id="unic_section">
+        <div id="unic_div">
+            <!-- Про цену -->
+            <div class="unic">
+                <!-- Перечёркнутая монета -->
+                <div id="crossed_out_coin">
+                    <img src="images/moneta.png" alt="Монета" id="moneta">
+                </div>
+
+                <span>Абсолютно бесплатная<br>
+                проходка</span>
+            </div>
+
+            <!-- Про костюмизацию -->
+            <div class="unic">
+                <img src="images/amogus.png" alt="Тотем в виде персонажа из амонг ас"
+                     style="width: 130px; height: 150px" id="amogus">
+                <span>Уникальнальная<br>
+                кастомизация</span>
+            </div>
+
+            <!-- Про ивенты -->
+            <div class="unic">
+                <img src="images/calendar.png" alt="Календарь"
+                     style="width: 135px; height: 148px;" id="calendar">
+                <span>Частые интересные<br>
+                ивенты</span>
+            </div>
+
+            <!-- Про комьюнити -->
+            <div class="unic">
+                <img src="images/heart.png" alt="Сердце" id="heart"
+                     style="width: 140px; height: 140px;">
+                <span>Доброе позитивное<br>
+                комьюнити</span>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    Секция третья
+    преимущества сервера
+    -->
+    <section id="advantages_section">
+        <!-- Информация о создании групп -->
+        <div id="group" class="advantage">
+            <img src="images/group.png" alt="Группа игроков сидят на портале в энд" class="advantage_img">
+
+            <div class="advantage_div">
+                <div class="advantage_text">
+                    Объединяйся в кланы<br>
+                    и играй вместе<br>
+                    со своими друзьями!
+                </div>
+            </div>
+        </div>
+
+        <!-- Информация о кастомизации -->
+        <div id="costuming" class="advantage">
+            <div class="advantage_div">
+                <a href="shop.html" class="advantage_text">
+                    Кастомизируй свой внешний вид!<br>
+                    <span class="unic_color" style="font-size: 20px">Купить уникальные украшения</span> &rarr;
+                </a>
+            </div>
+
+            <img src="images/pet.png" alt="Питомцы" class="advantage_img">
+        </div>
+
+        <!-- Информация о создании проектов -->
+        <div id="project" class="advantage">
+            <img src="images/project.png" class="advantage_img" alt="Проект">
+
+            <div class="advantage_div">
+                <div class="advantage_text">
+                    Реализуй то, что всегда хотел,<br>
+                    но на что никогда<br>
+                    не было времени!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Градиент из чёрного в серый -->
+    <div class="gradient_black-gray"></div>
+
+    <!--
+    Секция пятая
+    повторяется серверная информация для входа
+    Регистрация / вход
+    -->
+    <section id="registration_section">
+        <div id="registration">
+            <div>
+                <h3>Присоединяйтесь прямо сейчас</h3>
+                <p>1.19.2 · Minecraft: Java Edition · Пиратская версия</p>
+            </div>
+            <div id="buttons_registration_section">
+                <a href="" class="textbutton" id="sign_in_textbutton_registration_section">
+                    Подать заявку
+                </a>
+                <a href="" class="textbutton" id="log_in_textbutton_registration_section">
+                    Вход
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<footer>
+    <!-- Ссылки -->
+    <div id="urls_footer">
+        <a href="https://t.me/MineBridgeOfficial">
+            <img src="images/telegram.png" alt="telegram_img" style="width: 88px; height: 88px;">
+        </a>
+        <a href="https://discord.gg/rmWAuKGb69">
+            <img src="images/discord.png" alt="discord_img" style="width: 100px; height: 106px;">
+        </a>
+    </div>
+
+    <!-- Копирайт -->
+    <span>&#169; MineBridge 2022</span>
+</footer>
+
+</body>
+
+</html>
