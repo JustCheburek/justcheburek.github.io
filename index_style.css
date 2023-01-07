@@ -51,6 +51,7 @@ h1 {
     height: 41px;
     margin: 31px 0 31px 0;
     padding: 20px 10px 12px 10px;
+    filter: drop-shadow(0 0 10px #00ADB5);
 }
 
 #info_server_text {
@@ -123,7 +124,6 @@ h1 {
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-
 }
 
 .advantage_div {
