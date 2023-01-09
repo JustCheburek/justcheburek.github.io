@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Generated with https://sitemap-xml.ru-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://minebridge.ml/index.html</loc>
     </url>
     <url>
         <loc>https://minebridge.ml/login.html</loc>
+    </url>
+    <url>
+        <loc>https://minebridge.ml/auth.html</loc>
+    </url>
+    <url>
+        <loc>https://minebridge.ml/features.html</loc>
+    </url>
+    <url>
+        <loc>https://minebridge.ml/rules.html</loc>
+    </url>
+    <url>
+        <loc>https://minebridge.ml/shop.html</loc>
     </url>
 </urlset>
