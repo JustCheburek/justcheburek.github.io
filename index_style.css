@@ -51,6 +51,7 @@ h1 {
     height: 41px;
     margin: 31px 0 31px 0;
     padding: 20px 10px 12px 10px;
+    filter: drop-shadow(0 0 10px #00ADB5);
 }
 
 #info_server_text {
@@ -71,7 +72,7 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
     height: 220px;
-    width: 1300px;
+    width: 1325px;
 }
 
 .unic {
@@ -123,7 +124,6 @@ h1 {
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-
 }
 
 .advantage_div {
@@ -186,7 +186,7 @@ h3 {
 #sign_in_textbutton_registration_section {
     width: 250px;
     height: 41px;
-    padding: 19px 90px 15px 90px;
+    padding: 20px 90px 14px 90px;
     filter: drop-shadow(0 0 10px #00ADB5);
 }
 
@@ -194,5 +194,5 @@ h3 {
     background: #4E4E4E;
     width: 170px;
     height: 41px;
-    padding: 19px 0 15px 0;
+    padding: 20px 0 14px 0;
 }
