@@ -7,4 +7,4 @@ Allow: /
 Crawl-delay: 1
 
 Host: minebridge.ml
-Sitemap: http://minebridge.ml/sitemap.xml
+Sitemap: https://minebridge.ml/sitemap.xml
