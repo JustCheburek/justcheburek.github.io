@@ -40,7 +40,7 @@ main {
 }
 
 h1 {
-    font-size: 76px;
+    font-size: 75.9px;
     font-weight: 700;
     line-height: 93px;
     margin: 0;
@@ -69,10 +69,10 @@ h1 {
 #unic_div {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 220px;
-    width: 1325px;
+    width: 1140px;
 }
 
 .unic {
